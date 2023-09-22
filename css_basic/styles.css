@@ -1,0 +1,32 @@
+/* Body */
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:#FFADAD ;
+    border: 10px;
+
+}
+
+
+/*Main*/
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    height: auto;
+    width: auto;
+}
+
+/*Article*/
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+/*Aside*/
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+
